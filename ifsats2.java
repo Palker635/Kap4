@@ -12,7 +12,7 @@ public class ifsats2	{
 	score = Double.parseDouble (JOptionPane.showInputDialog(null, "Hur många poäng fick du på provet?")); 
 	
 		if (score > 50) {
-			JOptionPane.showMessageDialog(null, score + "är ett ogiltigt antal poäng"); 
+			JOptionPane.showMessageDialog(null, score + " är ett ogiltigt antal poäng"); 
 		} else if (score >= 45){
 			JOptionPane.showMessageDialog(null, "Du fick A i betyg");
 			} else if (score >= 40){
